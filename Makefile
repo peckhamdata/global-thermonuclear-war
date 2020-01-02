@@ -2,9 +2,9 @@
 
 KICKASS_JAR=$(KICK_HOME)/KickAss.jar
 C1541=$(VICE_HOME)/tools/c1541
+KICK_LIB_DIR=$(KICK_LIB_DIR)
 PROG=war
 EMU=xPet
-LIB_PATH=../pet-bird
 
 .PHONY: deploy clean
 
@@ -15,7 +15,7 @@ $(PROG).d64:$(PROG).prg
 	$(C1541) -format $(PROG),1 d64 $(PROG).d64 -attach $(PROG).d64 -write $(PROG).prg $(PROG) 
 
 $(PROG).prg:$(PROG).asm *.asm
-	java -jar $(KICKASS_JAR) -libdir ${LIB_PATH} $(PROG).asm
+	java -jar $(KICKASS_JAR) -libdir ${KICK_LIB_DIR} $(PROG).asm
 
 clean:
 	rm -f *.prg
