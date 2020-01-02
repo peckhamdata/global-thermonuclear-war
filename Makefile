@@ -2,7 +2,6 @@
 
 KICKASS_JAR=$(KICK_HOME)/KickAss.jar
 C1541=$(VICE_HOME)/tools/c1541
-KICK_LIB_DIR=$(KICK_LIB_DIR)
 PROG=war
 EMU=xPet
 
