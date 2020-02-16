@@ -8,6 +8,8 @@ A recreation of the [scene](https://www.youtube.com/watch?v=KXzNo0vR_dU&t=92) wh
 
 Thanks to George Phillips for his [ASCII recreation](http://48k.ca/wgascii.html) of the maps used in the menu.
 
+You can also watch a play through on [YouTube](https://www.youtube.com/watch?v=R65BBGmOPdw&t=10s).
+
 # Installation
 
 Install the dependencies:
