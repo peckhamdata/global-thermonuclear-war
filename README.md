@@ -37,6 +37,7 @@ Keyboard input is set up for a [Pet Graphics Keyboard](http://www.6502.org/users
 * Download the pre-compiled `war.d64` from the [Releases Page](https://github.com/peckhamdata/global-thermonuclear-war/releases)
 * Head into the directory where you extracted VICE (for me this was `C:\Users\black\Downloads\GTK3VICE-3.5-win64-r40445`), then enter the `bin` folder.
 * Double-click `xpet.exe`
+* You should hear a flashing beeping sound, then the commodore prompt
 * Press `Preferences -> Settings` (or Alt-O)
 * Go to `Machine -> Model`
 * Select the Model as `PET 4032` because we need 40 columns :)
